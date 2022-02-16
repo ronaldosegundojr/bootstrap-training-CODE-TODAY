@@ -1,0 +1,149 @@
+    /* Styles Generals */
+    /*  Body background */
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    /* Rows */
+    
+    .row {
+        margin: 0;
+    }
+    
+    .container {
+        padding: 70px 0;
+    }
+    
+    p li {
+        color: #444;
+        font-size: 14px;
+    }
+    /* Navegation Bar */
+    
+    header .navbar {
+        background-color: #353d41;
+    }
+    
+    #nav-container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* Icon on left page*/
+    
+    #logo {
+        width: 75px;
+    }
+    
+    .navbar-brand {
+        padding: 0;
+        color: #fff;
+    }
+    
+    .navbar-brand:hover {
+        color: #fff;
+    }
+    
+    #navbar-links a {
+        color: #fff;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 1rem .8rem;
+    }
+    /* Slider */
+    
+    .container-fluid {
+        padding: 0;
+    }
+    
+    #mainSlider .carousel-inner #mainSlider .carousel-item {
+        height: 90vh;
+    }
+    
+    #mainSlider .carousel-caption {
+        top: 30%
+    }
+    
+    #mainSlider .carousel-caption h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    #mainSlider .carousel-caption p {
+        font-size: 27px;
+        font-weight: 300;
+        margin-bottom: 100px;
+        color: #fff;
+    }
+    /* Botton on slider */
+    
+    .main-btn {
+        background-color: #65DAF941;
+        color: #fff;
+        text-transform: uppercase;
+        width: 200px;
+        height: 60px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: 3px solid solid transparent;
+        transition: .5s;
+    }
+    /* Botton on slider hover */
+    
+    .main-btn:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: transparent;
+        border-color: #65DAF9;
+    }
+    /* Botton on slider click */
+    
+    .carousel-indicators .active {
+        background-color: #65DAF9;
+    }
+    /* About CODE TODAY */
+    
+    #about-area {
+        background-color: #F9F9F9;
+    }
+    /* Title About CODE TODAY */
+    
+    .main-title {
+        color: #444;
+        margin: 0 0 65px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+    /* Pseudo Elemento - bar under the title About CODE TODAY */
+    
+    .main-title::after {
+        content: "";
+        border-top: 2px solid #444;
+        width: 15%;
+        position: absolute;
+        top: 60px;
+        left: 42.5%;
+    }
+    
+    .about-title {
+        font-size: 17px;
+        color: #444;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .about-list {
+        list-style: none;
+        padding-left: 0;
+    }
+    /* List Style */
+    
+    #about-list li {
+        line-height: 30px;
+    }
+    /* Icon Style */
+    
+    #about-list i {
+        color: #65daf9;
+        margin-right: 5px;
+    }
