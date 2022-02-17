@@ -92,7 +92,7 @@
     
     .main-btn:hover {
         text-decoration: none;
-        color: #fff;
+        color: #65daf9;
         background-color: transparent;
         border-color: #65DAF9;
     }
@@ -146,4 +146,37 @@
     #about-list i {
         color: #65daf9;
         margin-right: 5px;
+    }
+    /* Services */
+    
+    .service-box {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /* Service Titles Config */
+    
+    .service-box i,
+    .service-box h4 {
+        transition: .5s;
+        font-size: 35px;
+        margin-bottom: 30px;
+        color: #444;
+    }
+    /* Service Titles Icons Config */
+    
+    .service-box i {
+        font-size: 35px;
+        margin-bottom: 20px;
+        color: #444;
+    }
+    
+    .sirvice-box h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    /* If pass the mouse over the service icon and the name */
+    
+    .service-box:hover>i,
+    .service-box:hover>h4 {
+        color: #d2fa1f;
     }
