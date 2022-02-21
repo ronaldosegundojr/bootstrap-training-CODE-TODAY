@@ -3,6 +3,7 @@
     
     body {
         font-family: 'Roboto', sans-serif;
+        background-color: rgb(3, 2, 2);
     }
     /* Rows */
     
@@ -12,6 +13,7 @@
     
     .container {
         padding: 70px 0;
+        color: #fff;
     }
     
     p li {
@@ -21,7 +23,7 @@
     /* Navegation Bar */
     
     header .navbar {
-        background-color: #353d41;
+        background-color: #060b0e;
     }
     
     #nav-container {
@@ -33,10 +35,14 @@
     #logo {
         width: 75px;
     }
+    /* Title with Icon on left top page */
     
     .navbar-brand {
         padding: 0;
-        color: #fff;
+        color: rgb(252, 14, 14);
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: -10px;
     }
     
     .navbar-brand:hover {
@@ -109,7 +115,7 @@
     /* Title About CODE TODAY */
     
     .main-title {
-        color: #444;
+        color: rgb(221, 16, 16);
         margin: 0 0 65px 0;
         font-size: 40px;
         text-align: center;
@@ -118,16 +124,21 @@
     
     .main-title::after {
         content: "";
-        border-top: 2px solid #444;
+        border-top: 2px solid rgb(255, 0, 0);
         width: 15%;
         position: absolute;
         top: 60px;
         left: 42.5%;
     }
+    /* Text About CODE TODAY, color background */
+    
+    #about-area {
+        background-color: rgb(10, 7, 7);
+    }
     
     .about-title {
         font-size: 17px;
-        color: #444;
+        color: #fff;
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -152,6 +163,7 @@
     .service-box {
         text-align: center;
         margin-bottom: 50px;
+        color: #fff;
     }
     /* Service Titles Config */
     
@@ -160,14 +172,14 @@
         transition: .5s;
         font-size: 35px;
         margin-bottom: 30px;
-        color: #444;
+        color: #fff;
     }
     /* Service Titles Icons Config */
     
     .service-box i {
         font-size: 35px;
         margin-bottom: 20px;
-        color: #444;
+        color: #fff;
     }
     
     .sirvice-box h4 {
@@ -178,7 +190,7 @@
     
     .service-box:hover>i,
     .service-box:hover>h4 {
-        color: #b705fd;
+        color: rgb(201, 1, 1);
     }
     /* Data */
     
@@ -196,4 +208,8 @@
         text-align: center;
         font-size: 26px;
         margin-top: 20px;
+    }
+    
+    #navbar-links:hover>.navbar-nav:hover {
+        color: #ff0000;
     }
