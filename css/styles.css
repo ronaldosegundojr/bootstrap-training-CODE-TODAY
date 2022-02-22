@@ -213,3 +213,24 @@
     #navbar-links:hover>.navbar-nav:hover {
         color: #ff0000;
     }
+    
+    .img-fluid {
+        width: 800px;
+        border: 8px inset red;
+        padding: 15px;
+        margin: 12 auto;
+        color: #0202ff;
+    }
+    
+    .img-fluid:hover {
+        width: 800px;
+        border: 8px inset rgba(255, 0, 0, 0.596);
+        padding: 15px;
+        margin: 12 auto;
+    }
+    
+    .header-button {
+        border: #0202ff;
+        color: #ff0000;
+        background-color: #65daf9;
+    }
