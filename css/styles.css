@@ -3,7 +3,7 @@
     
     body {
         font-family: 'Roboto', sans-serif;
-        background-color: rgb(3, 2, 2);
+        background-color: rgb(0, 0, 0);
     }
     /* Rows */
     
@@ -23,7 +23,7 @@
     /* Navegation Bar */
     
     header .navbar {
-        background-color: #060b0e;
+        background-color: rgb(29, 27, 27);
     }
     
     #nav-container {
@@ -133,7 +133,7 @@
     /* Text About CODE TODAY, color background */
     
     #about-area {
-        background-color: rgb(10, 7, 7);
+        background-color: rgb(7, 4, 4);
     }
     
     .about-title {
