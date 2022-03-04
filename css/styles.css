@@ -217,6 +217,9 @@
     .img-fluid {
         width: 800px;
         border: 8px inset red;
+        border-right: 0px;
+        border-bottom: 0px;
+        border-top: 8px inset rgb(143, 1, 1);
         padding: 15px;
         margin: 12 auto;
         color: #0202ff;
